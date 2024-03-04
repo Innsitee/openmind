@@ -1,0 +1,64 @@
+@import 'variables';
+
+header{
+    min-height: 100vh;
+}
+
+
+.header-company{
+    color: $maincolor;
+    font-weight: 900;
+    font-size: 25rem;
+    line-height: 25rem;
+    // padding-left: 50px;
+    // padding-top: 50px;
+}
+.header-company-right{
+    color: $lightgrey;
+    font-weight: 900;
+    font-size: 12rem;
+}
+.header-company-right__small{
+    font-size: 10rem;
+}
+.header-subtitle{
+    color: $maincolor;
+    // font-weight: 900;
+    font-size: 3rem;
+    padding-right: 50px;
+    padding-top: 60px;
+}
+
+.hero-title{
+    padding-top: 80px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.circle-left{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 5px solid $maincolor;
+    border-radius: 50%;
+}
+
+.circle-text-wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.header-left{
+    background-color: $lightgrey;
+}
+.header-right{
+    min-height: 100vh;
+}
+
+.header-right{
+    background-color: $maincolor;
+   // background-color: $darkcolor;
+}
